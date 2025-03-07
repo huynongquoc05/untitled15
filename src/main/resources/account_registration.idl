@@ -1,0 +1,5 @@
+module OnlineStore {
+    interface AccountRegistration {
+        boolean registerAccount(in string username, in string password, in string email);
+    };
+};
